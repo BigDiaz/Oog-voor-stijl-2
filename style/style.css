@@ -1,0 +1,413 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFAF0;
+}
+
+/* HOOFDPAGINA */ 
+/* HEADER */ 
+
+header h1{
+    font-size: 70px;
+    padding-left: 0.5%;
+    margin-top: auto;
+}
+
+header p{
+    font-size: 23px;
+    color: red;
+    margin-top: -50px;
+    padding-left: 11%;
+}
+
+nav a{
+    font-size: x-large;
+    margin-top: -70px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav{
+    display: flex;
+    justify-content: end;
+}
+
+/* MAIN */ 
+/* weekaflevering */ 
+
+.week-af{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.bordje{
+    background-color: white;
+    width: 406px;
+    height: 430px;
+    margin: 2%;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.6));
+}
+
+.bordje h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+.bordje h2{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+.bordje h3{
+    color: black;
+    font-size: x-large;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.bordje p{
+    font-size: x-large;
+    font-weight: lighter;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.bordje a{
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    margin: 16px;
+    margin-top: 30px;
+    position: absolute;
+    text-decoration: none;
+
+    border-style: solid;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+
+/* uitgelichte */ 
+
+.uitgelichte h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-size: xx-large;
+}
+
+.uitgelichte-af{ 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.af{
+    background-color: rgb(14, 59, 67);
+    width: 439px;
+    height: 288px;
+    margin: 1%;
+}
+
+.af h3{
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    padding-left: 1%;
+    padding-top: 1.5%;
+    pointer-events: none;
+}
+
+.af :hover{
+    box-shadow: 10px 10px 30px rgba(36, 36, 36, 0.8);
+    transition: box-shadow 0.3s ease;
+}
+
+.af a{
+    display: flex;
+}
+
+
+/* alle afleveringen */ 
+
+.alle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    width: 220px;
+    height: 40px;
+    margin: auto;
+}
+
+
+/* FOOTER */
+
+/* over ons */
+
+.over{
+    margin-top: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 2.5%;
+    margin-bottom: 5%;
+}
+
+.over h2{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.over p{
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+
+    font-size: large;
+}
+
+.over{
+    background-color: rgb(62, 123, 71);
+    color: white;
+}
+
+
+/* footer */
+
+.footer a :hover{
+    color: black;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(62, 123, 71);
+    color: white;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-top: auto;
+}
+
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+}
+
+/* contact */
+
+.footer-1 h2{
+    margin-bottom: 4%;
+}
+
+/* socials */
+
+.footer-3 h2{
+    margin-bottom: 28%;
+}
+
+/* email */
+
+.email{
+    margin-top: 0.2%;
+}
+
+.email p{
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+
+#footer-email{
+    height: 20px;
+    width: 200px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+#footer-email-btn{
+    height: 21px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+
+/* AFLEVERINGEN PAGINA */ 
+
+section h3{
+    color: black;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 2%;
+    margin-bottom: -12px;
+}
+
+.aflevering h4{
+    font-size: 70px;
+    margin-top: auto;
+    padding-left: 5%;
+    color: white;
+}
+
+.aflevering{
+    background-color: rgb(62, 123, 71);
+    height: 500px;
+}
+
+.episodes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: -4%;  
+}
+
+.episode-s1{
+    display: flex;
+    background-color: white;
+    width: 1285px;
+    margin: 1%;
+    margin-top: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(36, 36, 36, 0.5);
+}
+
+.episode-s1 h3{
+    font-size: x-large;
+    padding-top: 10px; 
+    padding-left: 10px;
+    margin: auto;
+}
+
+.episode-s1 p{
+    font-size: x-large;
+    padding-top: 5px;
+    padding-left: 30px;
+    width: 1020px;
+    position: absolute;
+}
+
+.episode-s1 a{
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.footer-af{
+    padding-top: 900px;
+}
+
+
+/* OVER ONS */ 
+
+.over-ons{
+    background-color:  rgb(62, 123, 71);
+    height: 500px;
+}
+
+/* eme */
+
+.eme{
+    display: flex;
+    padding-left: 2%;
+    padding-top: 2%;
+    color: white;
+}
+
+.eme h4{
+    font-size: 60px;
+    padding-left: 20px;
+}
+
+.eme p{
+    font-size: 20px;
+    margin-left: -120px;
+    padding-top: 150px;
+    padding-right: 5%;
+}
+
+/* thijs */
+
+.thijs{
+    display: flex;
+    justify-content: end;
+    padding-right: 2%;
+    padding-top: 5%;
+    text-align: right;
+}
+
+.thijs h4{
+    position: absolute;
+    font-size: 60px;
+    padding-right: 510px;
+}
+
+.thijs p{
+    font-size: 20px;
+    padding-right: 2%;
+    padding-left: 5%;
+    margin-top: 150px;
+}
+
+/* jonna */ 
+
+.deco{
+    background-color: rgb(14, 59, 67);
+    height: 500px;
+}
+
+.jonna{
+    display: flex;
+    padding-left: 2%;
+    padding-top: 2%;
+    color: white;
+}
+
+.jonna h4{
+    font-size: 60px;
+    padding-left: 20px;
+}
+
+.jonna p{
+    font-size: 20px;
+    margin-left: -170px;
+    padding-top: 150px;
+    padding-right: 5%;
+}
+
+.footer-over{
+    padding-top: 1400px;
+}
+
+
+a:hover{
+    color: red;}
+
+
+/* BRONNEN 
+
+-aflevering van de week bordje & uitgelichte afleveringen: 
+    https://youtu.be/qXRYMdvq_Dc?si=Ke48utJqorWDtWy-
+
+-footer:
+    https://youtu.be/5WoQm7tR6EA?si=cslnm3T8IuF9lXWy */
